@@ -49,65 +49,65 @@
       
   </section>
 
-<!-- CARD MODEL PERFOMANCE -->
-  <section id="Carousel">
-    <input class="carousel-input" type="radio" name="carousel" id="carousel-1" checked>
-    <input class="carousel-input" type="radio" name="carousel" id="carousel-2">
-    <input class="carousel-input" type="radio" name="carousel" id="carousel-3">
-    <input class="carousel-input" type="radio" name="carousel" id="carousel-4">
+<!-- MODEL CARDS -->
+  <section class="model-cards">
+    <input class="model-cards__input" type="radio" name="model-cards" id="model-1" checked>
+    <input class="model-cards__input" type="radio" name="model-cards" id="model-2">
+    <input class="model-cards__input" type="radio" name="model-cards" id="model-3">
+    <input class="model-cards__input" type="radio" name="model-cards" id="model-4">
 
-    <div class="carousel-track">
-      <!-- CARD MODEL PERFOMANCE -->
-      <div class="card card-1"> 
-        <h4>Midsize SUV</h4>
-        
-        <div>
+    <div class="model-cards__track">
+      <div class="model-cards__card model-cards__card--model-y">
+        <div class="model-cards__content">
+          <h4>Midsize SUV</h4>
           <h1>Model Y</h1>
-          <button class="primary">Custom Order</button>
-          <button class="secondary">Learn More</button>
+        </div>
+        <div class="model-cards__actions">
+          <a class="primary" href="https://www.tesla.com/modely/design">Order Now</a>
+          <a class="secondary" href="https://www.tesla.com/modely#performance">Learn More</a>
         </div>
       </div>
 
-      <!-- CARD MODEL PERFOMANCE -->
-      <div class="card card-2"> 
-        <h4>Sport Sedan</h4>
-        
-        <div>
+      <div class="model-cards__card model-cards__card--model-3">
+        <div class="model-cards__content">
+          <h4>Sport Sedan</h4>
           <h1>Model 3</h1>
-          <button class="primary">Custom Order</button>
-          <button class="secondary">Learn More</button>
+        </div>
+        <div class="model-cards__actions">
+          <a class="primary" href="https://www.tesla.com/model3/design">Order Now</a>
+          <a class="secondary" href="https://www.tesla.com/model3/design">Learn More</a>
         </div>
       </div>
 
-      <!-- CARD MODEL PERFOMANCE -->
-      <div class="card card-3"> 
-        <h4>Utility Truck</h4>
-        
-        <div>
-          <img>
-          <button class="primary">Custom Order</button>
-          <button class="secondary">Learn More</button>
+      <div class="model-cards__card model-cards__card--cybertruck">
+        <div class="model-cards__content">
+          <h4>Utility Truck</h4>
+          <img class="model-cards__icon" src="assests/truck.svg" alt="Truck">
+        </div>
+        <div class="model-cards__actions">
+          <a class="primary" href="https://www.tesla.com/cybertruck/design#overview">Order Now</a>
+          <a class="secondary" href="https://www.tesla.com/cybertruck">Learn More</a>
         </div>
       </div>
 
-      <!-- CARD MODEL PERFOMANCE -->
-      <div class="card card-4"> 
-        <h4>Luxcury Sport</h4>
-        
-        <div>
+      <div class="model-cards__card model-cards__card--model-s">
+        <div class="model-cards__content">
+          <h4>Luxury Sport</h4>
           <h1>Model S</h1>
-          <p>3.99% APR Available</p>
-          <button class="primary">Custom Order</button>
-          <button class="secondary">Learn More</button>
+          <p><a href="https://www.tesla.com/models/design?financeModalTab=finance_options&financeProduct=finplat.AUTO_LOAN%3ALOAN%3ACT_PRIVATE#overview">3.99% APR Available</a></p>
+        </div>
+        <div class="model-cards__actions">
+          <a class="primary" href="https://www.tesla.com/models/design">Order Now</a>
+          <a class="secondary" href="https://www.tesla.com/models">Learn More</a>
         </div>
       </div>
     </div>
 
-    <div class="carousel-controls" aria-label="Carousel controls">
-      <label for="carousel-1"></label>
-      <label for="carousel-2"></label>
-      <label for="carousel-3"></label>
-      <label for="carousel-4"></label>
+    <div class="model-cards__controls" aria-label="Model cards controls">
+      <label for="model-1"></label>
+      <label for="model-2"></label>
+      <label for="model-3"></label>
+      <label for="model-4"></label>
     </div>
   </section>
 
@@ -116,7 +116,9 @@
       <div class="card-content">
         <h5>Current Offers</h5>
         <p>Explore limited-time offers on Tesla vehicles.</p>
-        <div class="card-actions"><button>Learn More</button></div>
+        <div class="card-actions">
+          <a class="card-link" href="https://www.tesla.com/current-offers">Learn More</a>
+        </div>
       </div>
       <picture class="card-media">
         <img src="assests/offers.png" alt="Current Offers">
@@ -127,7 +129,9 @@
       <div class="card-content">
         <h5>American Heros</h5>
         <p>$500 off for military, first responders, healthcare, teachers and students.</p>
-        <div class="card-actions"><button>Learn More.</button></div>
+        <div class="card-actions">
+          <a class="card-link" href="https://www.tesla.com/american-heroes">Learn More</a>
+        </div>
       </div>
       <img class="card-media" src="assests/American-Heros.png" alt="American Heroes">
     </div>
@@ -140,8 +144,9 @@
     <h2>Full Self-Driving (Supervised) Keeps You Safer</h2>
       
 
-    <div><button>Demo Drive</button>
-    <button class="btn">View Safety Report</button>
+    <div>
+      <a class="btn" href="https://www.tesla.com/drive">Demo Drive</a>
+      <a class="btn" href="https://www.tesla.com/fsd/safety">View Safety Report</a>
     </div>
     </div>
 
@@ -149,7 +154,8 @@
       <h2>Features That Come Standard</h2>
       
 
-    <div><button class="btn">Discover</button>
+    <div>
+      <a class="btn" href="https://www.tesla.com/features">Discover</a>
     </div>
     </div>
 
@@ -159,50 +165,97 @@
 
     <section class="charging-map">
       <div class="charging-map__content">
-        <div class="charging-map__text">
-          <div class="charging-map__image">
-            <img src="assests/charge.png" alt="Charging network map">
-          </div>
-          <h3>Find Your Charge</h3>
-          <p>View the network of Tesla Superchargers and Destination Chargers available near you.</p>
-          <div class="charging-map__ctas">
-            <button class="charging-btn charging-btn--primary">View Network</button>
-            <button class="charging-btn charging-btn--secondary">Learn More</button>
-          </div>
+        <div class="charging-map__image">
+          <img src="assests/Screenshot 2026-02-03 225112.png" alt="Charging network map">
         </div>
 
-        <div class="charging-map__stats">
-          <div class="charging-map__stat">
-            <div class="charging-map__stat-top">
-              <span class="charging-map__stat-number">9,677</span>
-              <span class="charging-map__stat-icon charging-map__stat-icon--super" aria-hidden="true"></span>
+        <div class="charging-map__row">
+          <div class="charging-map__text">
+            <h3>Find Your Charge</h3>
+            <p>View the network of Tesla Superchargers and Destination Chargers available near you.</p>
+            <div class="charging-map__ctas">
+            <a class="charging-btn charging-btn--primary" href="https://www.tesla.com/findus">View Network</a>
+            <a class="charging-btn charging-btn--secondary" href="https://www.tesla.com/charging">Learn More</a>
             </div>
-            <div class="charging-map__stat-label">Superchargers</div>
           </div>
 
-          <div class="charging-map__stat">
-            <div class="charging-map__stat-top">
-              <span class="charging-map__stat-number">917</span>
-              <span class="charging-map__stat-icon charging-map__stat-icon--dest" aria-hidden="true"></span>
+          <div class="charging-map__stats">
+            <div class="charging-map__stat">
+              <div class="charging-map__stat-top">
+                <span class="charging-map__stat-number">9,677</span>
+                <img class="charging-map__stat-icon-img" src="assests/download (1).svg" alt="Superchargers icon">
+              </div>
+              <div class="charging-map__stat-label">Superchargers</div>
             </div>
-            <div class="charging-map__stat-label">Destination Chargers</div>
+
+            <div class="charging-map__stat">
+              <div class="charging-map__stat-top">
+                <span class="charging-map__stat-number">917</span>
+                <img class="charging-map__stat-icon-img" src="assests/download.svg" alt="Destination chargers icon">
+              </div>
+              <div class="charging-map__stat-label">Destination Chargers</div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section class="charge-cards">
-      <div class="charge-cards__card"></div>
-      <div class="charge-cards__card"></div>
-      <div class="charge-cards__card"></div>
-      <div class="charge-cards__card"></div>
+      <input class="charge-cards__input" type="radio" name="charge-cards" id="charge-1" checked>
+      <input class="charge-cards__input" type="radio" name="charge-cards" id="charge-2">
+      <input class="charge-cards__input" type="radio" name="charge-cards" id="charge-3">
+      <input class="charge-cards__input" type="radio" name="charge-cards" id="charge-4">
+
+      <div class="charge-cards__track">
+        <div class="charge-cards__card charge-cards__card--solar-panels">
+          <div class="charge-cards__content">
+            <h1>Solar Panels</h1>
+            <h5>Power Your Home and Reduce Your Electricity Bill</h5>
+          </div>
+          <div class="charge-cards__actions">
+            <a class="primary" href="https://www.tesla.com/energy/design?poi=solarpanels">Order Now</a>
+            <a class="secondary" href="https://www.tesla.com/solarpanels">Learn More</a>
+          </div>
+        </div>
+        <div class="charge-cards__card charge-cards__card--powerwall">
+          <div class="charge-cards__content">
+            <h1>Powerwall</h1>
+            <h5>Keep Your Lights On During Outages</h5>
+          </div>
+          <div class="charge-cards__actions">
+            <a class="primary" href="https://www.tesla.com/powerwall/design">Order Now</a>
+            <a class="secondary" href="https://www.tesla.com/powerwall">Learn More</a>
+          </div>
+        </div>
+        <div class="charge-cards__card charge-cards__card--megapack">
+          <div class="charge-cards__content">
+            <h1>Megapack</h1>
+            <h5>Massive Batteries For Massive Energy Support</h5>
+          </div>
+          <div class="charge-cards__actions">
+            <a class="primary" href="https://www.tesla.com/megapack">Learn More</a>
+          </div>
+        </div>
+        <div class="charge-cards__card charge-cards__card--solar-roof">
+          <div class="charge-cards__content">
+            <h1>Solar Roof</h1>
+            <h5>Generate Clean Energy With Your Roof</h5>
+          </div>
+          <div class="charge-cards__actions">
+            <a class="primary" href="https://www.tesla.com/solarroof/design">Order Now</a>
+            <a class="secondary" href="https://www.tesla.com/solarroof">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="charge-cards__controls" aria-label="Charge cards controls">
+        <label for="charge-1"></label>
+        <label for="charge-2"></label>
+        <label for="charge-3"></label>
+        <label for="charge-4"></label>
+      </div>
     </section>
 
-
- 
-    
-
-    
     </section>
 
     <section class="footer">
@@ -218,39 +271,16 @@
       </footer>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer></footer>
+    <div class="sticky-bar" aria-label="Sticky actions">
+      <button class="sticky-bar__btn sticky-bar__btn--question">
+        <span>Ask a Question</span>
+      </button>
+      <a class="sticky-bar__btn sticky-bar__btn--drive" href="https://www.tesla.com/drive">
+        <img src="assests/wheel.svg" alt="" aria-hidden="true">
+        <span>Schedule a Drive Today</span>
+      </a>
+    </div>
 
   </body>
   </html>
+
